@@ -2,4 +2,4 @@
  
  Complete HTML course(beginner to advanced level) with both theoretical and practical explanations.
  
-___HTML Learning Resources and Cheatsheets___ :neckbeard:
+_HTML Learning Resources and Cheatsheets_ :neckbeard:
