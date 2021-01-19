@@ -1,5 +1,7 @@
-__Udemy: Learn HTML: Begginer to Advanced__
+# Udemy: Learn HTML: Begginer to Advanced #
+
+### Complete HTML course(beginner to advanced level) with both theoretical and practical explanations. ###  
+🇷🇺Each lesson has comments in Russian language🇷🇺
  
- Complete HTML course(beginner to advanced level) with both theoretical and practical explanations.
  
- HTML Learning Resources and Cheatsheets :neckbeard:
+_HTML Learning Resources and Cheatsheets_ :neckbeard:
