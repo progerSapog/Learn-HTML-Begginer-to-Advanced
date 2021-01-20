@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> My fist html document </title>
+</head>
+
+<body>
+    <!--Тег table - контейнер для элементов таблицы.-->
+    <table border="2" cellspacing="5" cellpadding="5">
+        <!-- Тег <colgroup> предназначен для задания ширины и стиля одной
+             или нескольких колонок таблицы. Этот тег позволяет уменьшить 
+             код таблицы за счет сокращения повторяющихся атрибутов-->
+        <colgroup>
+            <col span="2" style="background-color: red;">
+        </colgroup>
+        <!-- Тег caption - заголовок таблицы-->
+        <caption> My First table </caption>
+        <!-- Тег thead - заголовок таблицы - несколько строк
+             с именами столбцов.-->
+        <thead>
+            <!-- Тег tr - создание строки в таблице-->
+            <tr>
+                <!-- Тег th - создание колонки в таблице-->
+                <th colspan="2">Cars</th>
+                <th>Phones</th>
+            </tr>
+        </thead>
+        <!-- Тег tbody - тело таблицы.
+             Объединение для общего форматирования.-->
+        <tbody>
+            <tr>
+                <td rowspan="2">Nissan</td>
+                <td>IPhoneX11</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Samsung</td>
+            </tr>
+    </tbody>
+    <!-- Тег tfoof - конец таблицы-->
+    <tfoot>
+        <tr>
+            <td>ГАЗ</td>
+            <td>Nokia</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
