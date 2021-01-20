@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> My fist html document </title>
+</head>
+
+<body>
+    <!-- Тег form создает форму для ввода пользователем.
+        В атрибуте action="" указывается куда выполнится переход после 
+        заполнения данных.
+            Например: "https://www.google.com/" -->
+    <form action="https://www.google.com/">
+        <!-- for и id связывают label и форму ввода-->
+        <label for="Name"> Your name: </label>
+        <!-- Тег input отвечает за ввод данных. Имеет множетсво параметров-->
+        <input type="text" id="Name" name="User name" value="Vladislav">
+        <label for="Surname"> Your surname: </label>
+        <input type="text" id="Surname">
+        <label> Password: </label>
+        <input type="password" name="password">
+
+        <!-- sumbit - кнопка отправки заполненой формы-->
+        <input type="submit">
+
+        <!-- button - создание кнопки-->
+        <input type="button">
+
+        <!-- radio - кружочек для выбора. По умолчанию выбор 1 из-->
+        <label> Выбор1: </label>
+        <input type="radio" name="choose" id="choose">
+        <label> Выбор2: </label>
+        <input type="radio" name="choose" id="choose">
+        <label> Выбор3: </label>
+        <input type="radio" name="choose" id="choose">
+        <br><br>
+
+        <!-- checkbox - квадратик для выбора. Можно выбирать несколько.-->
+        <label> Выбор1: </label>
+        <input type="checkbox" name="choose" id="choose">
+        <label> Выбор2: </label>
+        <input type="checkbox" name="choose" id="choose">
+        <label> Выбор3: </label>
+        <input type="checkbox" name="choose" id="choose">
+    </form>
+
+
+
+</body>
+</html>

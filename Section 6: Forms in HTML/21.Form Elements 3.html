@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> My fist html document </title>
+</head>
+
+<body>
+    <!-- Тег form создает форму для ввода пользователем.
+        В атрибуте action="" указывается куда выполнится переход после 
+        заполнения данных.
+            Например: "https://www.google.com/" -->
+    <form action="" method="">
+        <!-- for и id связывают label и форму ввода-->
+        <label for="Name"> Your name: </label>
+        <!-- Тег input отвечает за ввод данных. Имеет множетсво параметров-->
+        <input type="text" id="Name" name="User name" value="Vladislav">
+        <label for="Surname"> Your surname: </label>
+        <!-- required - обязательный к заполнению-->
+        <input type="text" id="Surname" required>
+        <label> Password: </label>
+        <!-- autofocus - автоматически выбирается при запуске.-->
+        <input type="password" name="password" autofocus>
+
+        <!-- sumbit - кнопка отправки заполненой формы-->
+        <input type="submit">
+
+        <!-- button - создание кнопки-->
+        <input type="button">
+        <br><hr><hr><br>
+
+        <!-- radio - кружочек для выбора. По умолчанию выбор 1 из-->
+        <label> Выбор1: </label>
+        <input type="radio" name="choose" id="choose">
+        <label> Выбор2: </label>
+        <input type="radio" name="choose" id="choose">
+        <label> Выбор3: </label>
+        <input type="radio" name="choose" id="choose">
+        <br><br>
+
+        <!-- checkbox - квадратик для выбора. Можно выбирать несколько.-->
+        <label> Выбор1: </label>
+        <input type="checkbox" name="choose" id="choose">
+        <label> Выбор2: </label>
+        <input type="checkbox" name="choose" id="choose">
+        <label> Выбор3: </label>
+        <input type="checkbox" name="choose" id="choose">
+
+        <!-- color - вызов палитры и выбор цвета (RGB).-->
+        <input type="color" name="" id="">
+
+        <!-- date- выбор и ввод даты-->
+        <input type="date" name="" id="">
+
+        <!-- file - загрузка файла-->
+        <input type="file" name="" id="">
+
+        <!-- reset - сбрасывает все заполненые поля-->
+        <input type="reset" value="">
+
+        <!-- range - ползунок.-->
+        <input type="range" name="" id="">
+        <br><hr><hr><br>
+
+        <!-- select - выпадющий список, где option - элементы 
+            списка. Атрибут multiple позволяет выбрать несколько
+            элементов.-->
+        <select multiple>
+            <option value=""> Rainy </option>
+            <option value=""> Sunny </option>
+            <option value=""> Cloudy</option>
+        </select>
+
+        <!-- textarea - большое поле заданного размера для ввода.-->
+        <textarea name="text" id="100" cols="30" rows="10">
+        Вводите... 
+        </textarea>
+
+        <!-- filedset - отедляет некую часть старницы-->
+        <fieldset>
+            <legend> FiledSet </legend>
+        <!-- for и id связывают label и форму ввода-->
+        <label for="Name"> Your name: </label>
+        <!-- Тег input отвечает за ввод данных. Имеет множетсво параметров-->
+        <input type="text" id="Name" name="User name" value="Vladislav">
+        <label for="Surname"> Your surname: </label>
+        <!-- required - обязательный к заполнению-->
+        <input type="text" id="Surname" required>
+        <label> Password: </label>
+        </fieldset>
+    </form>
+
+
+    <!-- Способ задать свой выпадающий список с возможность ввода.-->
+    <input list="data">
+    <datalist id="data">
+        <option value="nissan"> Nissan </option>
+        <option value="toyota"> Toyota </option>
+        <option value="Ford"> ford</option>
+
+    </datalist>
+
+</body>
+</html>
